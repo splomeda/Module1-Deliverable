@@ -14,16 +14,18 @@ Deep Blue: #293241
   padding: 0;
 }
 :root {
-  --font-body: "Inter", sans-serif;
-  --font-display: "Playfair", serif;
+  --font-body: "Bangers", system-ui;
+  --font-display: "Nosifer", sans-serif;
   --base-size: 1rem;
-  --h1-size: 3rem;
-  --h2-size: 2.25rem;
+  --h1-size: 2.5rem;
+  --h2-size: 2rem;
   --h3-size: 1.5rem;
   --line-height: 1.5;
   --letter-spacing: 0.2px;
   --font-weight: 800;
-  --header-color: #3d5a80;
+  --header-color: #000;
+  --action-bg: #efd6ac;
+  --action-hover: darkred;
 }
 h1,
 h2,
@@ -63,12 +65,12 @@ header {
   height: 100px;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #efd6ac;
   background-color: var(--header-color);
 }
 .header-left {
   display: flex;
-  width: 30%;
+  width: 40%;
   height: 80px;
   align-items: center;
   justify-content: center;
@@ -92,7 +94,7 @@ header {
 }
 .header-right {
   display: flex;
-  width: 30%;
+  width: 20%;
   height: 80px;
   align-items: center;
   justify-content: center;
@@ -108,7 +110,7 @@ nav {
   font-weight: bold;
 }
 nav a {
-  color: #ffffff;
+  color: #efd6ac;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -121,8 +123,8 @@ nav a:hover {
   width: 130px;
   height: 30px;
   border-radius: 20px;
-  background-color: #98c1d9;
-  color: #3d5a80;
+  background-color: var(--action-bg);
+  color: #000;
   align-items: center;
   justify-content: center;
   transition: 0.3s;
@@ -130,19 +132,130 @@ nav a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
 }
 .contact-btn:hover {
-  background-color: #ee6c4d;
+  background-color: var(--action-hover);
   color: #ffffff;
 }
 .hero {
   display: flex;
   width: 100%;
+  height: 700px;
+  background-image: url("assets/hero02.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: left;
+}
+.hero-text {
+  display: flex;
+  width: 45%;
   height: auto;
-  border: 5px dashed red;
+  align-items: center;
+  justify-content: left;
+  padding: 100px;
+  color: #efd6ac;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
 }
 .section1 {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: #0d0d0d;
+  align-items: center;
+  justify-content: center;
+  color: #efd6ac;
+}
+.section2 {
+  display: flex;
   width: 100%;
   height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #183a37;
+}
+.sec2-left {
+  display: flex;
+  width: 50%;
+  height: 700px;
+  justify-content: right;
+}
+.sec2-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  padding: 100px;
+  padding-right: 200px;
+}
+.body-btn {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #000;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #183a37;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+}
+.body-btn:hover {
+  background-color: darkred;
+  color: #efd6ac;
+}
+.section3 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: right;
+  color: #183a37;
+  background-color: #000;
+}
+.sec3-right {
+  display: flex;
+  width: 50%;
+  height: 700px;
+  justify-content: left;
+}
+.sec3-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  padding: 100px;
+  padding-left: 200px;
+}
+.body-btn2 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #183a37;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+}
+.body-btn2:hover {
+  background-color: darkred;
+  color: #efd6ac;
 }
 .card-row {
   display: flex;
