@@ -6,12 +6,12 @@
   padding: 0;
 }
 :root {
-  --font-body: ;
-  --font-display: ;
-  --base-size: ;
-  --h1-size:;
-  --h2-size:;
-  --h3-size:;
+  --font-body: "Inter", sans-serif;
+  --font-display: font-family: "Playfair", serif;
+  --base-size: 1rem;
+  --h1-size: 3rem;
+  --h2-size: 2.25rem;
+  --h3-size: 1.5rem;
 }
 h1,
 h2,
