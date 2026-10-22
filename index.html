@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
     <title>GIT 337 | Module 1 Deliverable</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,8 +16,13 @@
   <body>
     <header>
       <div class="header-left">
-        <div class="logo">Logo</div>
-        <h1>Zombies"arrr"Us</h1>
+        <div class="logo">
+          <img
+            src="assets/halloween-cat-logo01.png"
+            alt="Halloween black cat with witches hat in front of orange moon."
+          />
+        </div>
+        <h1>Zombies'Arrr'Us</h1>
       </div>
       <div class="header-mid">
         <nav>
@@ -28,13 +34,16 @@
         </nav>
       </div>
       <div class="header-right">
-        <p>Call to Action?</p>
+        <p>+1 (800) 555-2026</p>
         <a href="#" class="contact-btn">Contact</a>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="hero-text">Zombie ipsum reversus ab viral inferno.</div>
+        <div class="hero-content-wrap">
+          <div class="hero-text">Zombie ipsum reversus ab viral inferno.</div>
+          <a href="#" class="hero-btn">Nescio Brains</a>
+        </div>
       </section>
       <section class="section1">
         <h2>De carne lumbering</h2>
@@ -167,6 +176,28 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-top"><p>+1 (800) 555-2026</p></div>
+      <div class="footer-mid">
+        <div class="footer-mid-left"><h2>ZOMBIES'ARRR'US</h2></div>
+        <div class="footer-mid-center">
+          <a href="#">Link One</a>
+          <a href="#">Link Two</a>
+          <a href="#">Link Three</a>
+          <a href="#">Link Four</a>
+          <a href="#">Link Five</a>
+        </div>
+        <div class="footer-mid-right">
+          <p>Subscribe to our Newsletter!</p>
+          <input
+            type="email"
+            placeholder="email@example.com"
+            class="subscribe-input"
+          />
+          <a href="#">Subscribe</a>
+        </div>
+      </div>
+      <div class="footer-bottom"></div>
+    </footer>
   </body>
 </html>
