@@ -257,13 +257,68 @@ nav a:hover {
   background-color: darkred;
   color: #efd6ac;
 }
+.section4 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #183a37;
+}
+.sec4-left {
+  display: flex;
+  width: 50%;
+  height: 700px;
+  justify-content: right;
+}
+.sec4-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  padding: 100px;
+  padding-right: 200px;
+}
+.section5 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  color: #183a37;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 50px;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #0d0d0d;
+  align-items: center;
+  justify-content: center;
+  color: #efd6ac;
+}
 .card-row {
   display: flex;
   width: 75%;
   height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 3px dashed red;
 }
 .card {
   display: flex;
   width: 33%;
   height: 200px;
+  border: 1px dashed white;
 }
